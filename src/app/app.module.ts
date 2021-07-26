@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NewComponent } from './new/new.component';
+import { AnuskaComponent } from './anuska/anuska.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewComponent
+    NewComponent,
+    AnuskaComponent
   ],
   imports: [
     BrowserModule
